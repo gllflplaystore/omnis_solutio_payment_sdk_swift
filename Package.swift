@@ -1,7 +1,19 @@
-//
-//  Package.swift
-//  omnis-solutio-payment-sdk
-//
-//  Created by Gllfl Gllfl on 30/01/26.
-//
+// swift-tools-version: 5.9
+import PackageDescription
 
+let package = Package(
+    name: "OmnisSolutioPaymentSDK",
+    platforms: [.iOS(.v13)],
+    products: [
+        .library(
+            name: "OmnisSolutioPaymentSDK",
+            targets: ["OmnisSolutioPaymentSDK"]
+        )
+    ],
+    targets: [
+        .target(
+            name: "OmnisSolutioPaymentSDK",
+            path: "Sources/OmnisSolutioPaymentSDK"
+        )
+    ]
+)
