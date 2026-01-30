@@ -1,11 +1,12 @@
 //
-//  omnis_solutio_paymwnt_sdk_swift.swift
-//  omnis_solutio_paymwnt_sdk_swift
+//  OmnisSolutioPaymentSDK.swift
+//  OmnisSolutioPaymentSDK
 //
 //  Created by Gllfl Gllfl on 30/01/26.
 //
 
 import Foundation
+
 
 public typealias MyPaymentDelegate = PaymentDelegate
 public typealias MyPaymentConfig = PaymentConfig
